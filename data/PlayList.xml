@@ -1,0 +1,463 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<trackList>
+    <track Category="Ambient">
+        <title>Fantasia</title>
+        <creator>Tombar</creator>
+        <location>assets/sound/Ambient/Fantasia.</location>
+        <duration>173</duration>
+        <image>assets/images/PlayListAmbient.gif</image>
+        <info><![CDATA[assets/sound/Ambient/Fantasia.]]></info>
+        <identifier>0</identifier>
+    </track>
+
+
+    <track Category="Ambient">
+        <title>Spring</title>
+        <creator>Tombar</creator>
+        <location>assets/sound/Ambient/Spring.</location>
+        <duration>155</duration>
+        <image>assets/images/PlayListAmbient.gif</image>
+        <info><![CDATA[assets/sound/Ambient/Spring.]]></info>
+        <identifier>1</identifier>
+    </track>
+
+
+    <track Category="Ambient">
+        <title>Silent Inspiration</title>
+        <creator>Tombar</creator>
+        <location>assets/sound/Ambient/SilentInspirationB.</location>
+        <duration>110</duration>
+        <image>assets/images/PlayListAmbient.gif</image>
+        <info><![CDATA[assets/sound/Ambient/SilentInspiration.]]></info>
+        <identifier>2</identifier>
+    </track>
+
+    <track Category="Ambient">
+        <title>Don't Be Sad</title>
+        <creator>Tombar</creator>
+        <location>assets/sound/Ambient/DontBeSad.</location>
+        <duration>148</duration>
+        <image>assets/images/PlayListAmbient.gif</image>
+        <info><![CDATA[assets/sound/Ambient/DontBeSad.]]></info>
+        <identifier>3</identifier>
+    </track>
+
+    <track Category="Ambient">
+        <title>Aurora</title>
+        <creator>Tombar</creator>
+        <location>assets/sound/Ambient/Aurora.</location>
+        <duration>141</duration>
+        <image>assets/images/PlayListAmbient.gif</image>
+        <info>assets/sound/Ambient/Aurora.</info>
+        <identifier>4</identifier>
+    </track>
+
+    <track Category="Ambient">
+        <title>Folk Ballad</title>
+        <creator>Ferenc Snetberger</creator>
+        <location>assets/sound/Ambient/FolkBallad.</location>
+        <duration>163</duration>
+        <image>assets/images/PlayListAmbient.gif</image>
+        <info><![CDATA[assets/sound/AmbientX/FolkBallad.x]]></info>
+        <identifier>5</identifier>
+    </track>
+
+
+    <track Category="Ambient">
+        <title>Motherland</title>
+        <creator>Ferenc Snetberger</creator>
+        <location>assets/sound/Ambient/Motherland.</location>
+        <duration>244</duration>
+        <image>assets/images/PlayListAmbient.gif</image>
+        <info><![CDATA[assets/sound/AmbientX/Motherland.x]]></info>
+        <identifier>6</identifier>
+    </track>
+
+    <track Category="BrasilLively">
+        <title>Um Abraco No Bonfa</title>
+        <creator>Joao Gilberto</creator>
+        <location>assets/sound/BrasilSwing/UmAbracoNoBonfa.</location>
+        <duration>145</duration>
+        <image>assets/images/PlayListBrasilLively.gif</image>
+        <info><![CDATA[assets/sound/BrasilSwing/UmAbracoNoBonfa.]]></info>
+        <identifier>0</identifier>
+    </track>
+
+
+    <track Category="BrasilLively">
+        <title>Allegria Da Vida</title>
+        <creator>Tombar</creator>
+        <location>assets/sound/BrasilSwing/AllegriaDaVida.</location>
+        <duration>177</duration>
+        <image>assets/images/PlayListBrasilLively.gif</image>
+        <info><![CDATA[assets/sound/BrasilSwing/AllegriaDaVida.]]></info>
+        <identifier>1</identifier>
+    </track>
+
+    <track Category="BrasilLively">
+        <title>Daybreak Delight</title>
+        <creator>Tombar</creator>
+        <location>assets/sound/BrasilSwing/DayBreakDelight.</location>
+        <duration>117</duration>
+        <image>assets/images/PlayListBrasilLively.gif</image>
+        <info><![CDATA[assets/sound/BrasilSwing/DayBreakDelight.]]></info>
+        <identifier>2</identifier>
+    </track>
+
+    <track Category="BrasilLively">
+        <title>Fim Da Linha</title>
+        <creator>Baden Powell</creator>
+        <location>assets/sound/BrasilSwing/FimDaLinha.</location>
+        <duration>225</duration>
+        <image>assets/images/PlayListBrasilLively.gif</image>
+        <info><![CDATA[assets/sound/BrasilSwing/FimDaLinha.]]></info>
+        <identifier>3</identifier>
+    </track>
+
+    <track Category="BrasilLively">
+        <title>EBossa Ferenc</title>
+        <creator>Arr. Tombar</creator>
+        <location>assets/sound/BrasilSwing/EBossa.</location>
+        <duration>206</duration>
+        <image>assets/images/PlayListBrasilLively.gif</image>
+        <info><![CDATA[assets/sound/BrasilSwing/EBossa.]]></info>
+        <identifier>4</identifier>
+    </track>
+    <track Category="BrasilLively">
+        <title>The Sunny Side Of The Moon</title>
+        <creator>Tombar</creator>
+        <location>assets/sound/BrasilSwing/sunny.</location>
+        <duration>110</duration>
+        <image>assets/images/PlayListBrasilLively.gif</image>
+        <info></info>
+        <identifier>4</identifier>
+    </track>
+
+
+
+    <track Category="BrasilPoetic">
+        <title>Poema</title>
+        <creator>Baden Powell</creator>
+        <location>assets/sound/BrasilPoetic/Poema.</location>
+        <duration>205</duration>
+        <image>assets/images/PlayListBrasilPoetic.gif</image>
+        <info><![CDATA[assets/sound/BrasilPoetic/Poema.]]></info>
+        <identifier>0</identifier>
+    </track>
+
+
+    <track Category="BrasilPoetic">
+        <title>Se Todos Fossem Iguais A Voce</title>
+        <creator>Baden Powell</creator>
+        <location>assets/sound/BrasilPoetic/SeTodosFossemIguaisAVoce.</location>
+        <duration>255</duration>
+        <image>assets/images/PlayListBrasilPoetic.gif</image>
+        <info><![CDATA[assets/sound/BrasilPoetic/SeTodosFossemIguaisAVoce.]]></info>
+        <identifier>1</identifier>
+    </track>
+
+
+    <track Category="BrasilPoetic">
+        <title>Brasiliana</title>
+        <creator>Baden Powell</creator>
+        <location>assets/sound/BrasilPoetic/Brasiliana.</location>
+        <duration>216</duration>
+        <image>assets/images/PlayListBrasilPoetic.gif</image>
+        <info><![CDATA[assets/sound/BrasilPoetic/Brasiliana.]]></info>
+        <identifier>2</identifier>
+    </track>
+
+    <track Category="BrasilPoetic">
+        <title>Por Casa De Voce</title>
+        <creator>Baden Powell</creator>
+        <location>assets/sound/BrasilPoetic/PorCasaDeVoce.</location>
+        <duration>176</duration>
+        <image>assets/images/PlayListBrasilPoetic.gif</image>
+        <info><![CDATA[assets/sound/BrasilPoetic/PorCasaDeVoce.]]></info>
+        <identifier>3</identifier>
+    </track>
+
+    <track Category="BrasilPoetic">
+        <title>Valsa Sem Nome</title>
+        <creator>Baden Powell</creator>
+        <location>assets/sound/BrasilPoetic/ValsaSemNome.</location>
+        <duration>156</duration>
+        <image>assets/images/PlayListBrasilPoetic.gif</image>
+        <info><![CDATA[assets/sound/BrasilPoetic/ValsaSemNome.]]></info>
+        <identifier>4</identifier>
+    </track>
+
+    <track Category="Classic">
+        <title>Song for Pia</title>
+        <creator>Tombar</creator>
+        <location> assets/sound/Classic/SongForPia.</location>
+        <duration>133</duration>
+        <image>assets/images/PlayListClassic.gif</image>
+        <info><![CDATA[assets/sound/Classic/SongForPia.]]></info>
+        <identifier>0</identifier>
+    </track>
+
+
+    <track Category="Classic">
+        <title>Air</title>
+        <creator>J.S.Bach</creator>
+        <location>assets/sound/Classic/BachAir.</location>
+        <duration>217</duration>
+        <image>assets/images/PlayListClassic.gif</image>
+        <info><![CDATA[assets/sound/Classic/BachAir.]]></info>
+        <identifier>1</identifier>
+    </track>
+
+
+    <track Category="Classic">
+        <title>Horizon</title>
+        <creator>Steve Hackett</creator>
+        <location>assets/sound/Classic/Horizons07.</location>
+        <duration>163</duration>
+        <image>assets/images/PlayListClassic.gif</image>
+        <info><![CDATA[assets/sound/Classic/Horizons07.]]></info>
+        <identifier>2</identifier>
+    </track>
+
+    <track Category="Classic" >
+        <title>Petite SeraNade</title>
+        <creator>Tombar</creator>
+        <location>assets/sound/Classic/Sera.</location>
+        <duration>92</duration>
+        <image>assets/images/PlayListClassic.gif</image>
+        <info><![CDATA[assets/sound/Classic/Sera.]]></info>
+        <identifier>3</identifier>
+    </track>
+
+    <track Category="Classic">
+        <title>Joy</title>
+        <creator>J.S.Bach</creator>
+        <location>assets/sound/Classic/Joy.</location>
+        <duration>88</duration>
+        <image>assets/images/PlayListClassic.gif</image>
+        <info><![CDATA[assets/sound/Classic/Joy.]]></info>
+        <identifier>4</identifier>
+    </track>
+
+    <track Category="Classic">
+        <title>Menuett G-Dur</title>
+        <creator>J.S.Bach</creator>
+        <location>assets/sound/Classic/BachMenuettGDurL.</location>
+        <duration>82</duration>
+        <image>assets/images/PlayListClassic.gif</image>
+        <info><![CDATA[assets/sound/Classic/Joy.]]></info>
+        <identifier>5</identifier>
+    </track>
+
+    <track Category="Classic">
+        <title>Sarabande/Gigue</title>
+        <creator>Arr.: Tombar</creator>
+        <location>assets/sound/Classic/Sarabande_Gigue_L.</location>
+        <duration>120</duration>
+        <image>assets/images/PlayListClassic.gif</image>
+        <info><![CDATA[assets/sound/Classic/Joy.]]></info>
+        <identifier>6</identifier>
+    </track>
+
+    <track Category="Classic">
+        <title>Kemps Jig</title>
+        <creator>Arr.: Tombar</creator>
+        <location>assets/sound/Classic/KempsJig_L.</location>
+        <duration>57</duration>
+        <image>assets/images/PlayListClassic.gif</image>
+        <info><![CDATA[assets/sound/Classic/Joy.]]></info>
+        <identifier>7</identifier>
+    </track>
+
+
+
+    <track Category="EasyListening">
+        <title>Wishful Thinking</title>
+        <creator>E.Klugh arr.Tombar</creator>
+        <location>assets/sound/EasyListening/WishfulThinking.</location>
+        <duration>176</duration>
+        <image>assets/images/PlayListEasy.gif</image>
+        <info><![CDATA[assets/sound/EasyListening/WishfulThinking.]]></info>
+        <identifier>0</identifier>
+    </track>
+
+    <track Category="EasyListening">
+        <title>Smile</title>
+        <creator>Tombar</creator>
+        <location>assets/sound/EasyListening/Smile.</location>
+        <duration>176</duration>
+        <image>assets/images/PlayListEasy.gif</image>
+        <info><![CDATA[assets/sound/EasyListening/Smile.]]></info>
+        <identifier>1</identifier>
+    </track>
+
+    <track Category="EasyListening">
+        <title>If it is in your Heart ...</title>
+        <creator>E.Klugh arr.Tombar</creator>
+        <location>assets/sound/EasyListening/Heart.</location>
+        <duration>170</duration>
+        <image>assets/images/PlayListEasy.gif</image>
+        <info><![CDATA[assets/sound/EasyListening/Heart.]]></info>
+        <identifier>2</identifier>
+    </track>
+
+    <track Category="EasyListening">
+        <title>Love of my Life</title>
+        <creator>Arr.: Tombar</creator>
+        <location>assets/sound/EasyListening/LoveOfMyLife.</location>
+        <duration>199</duration>
+        <image>assets/images/PlayListEasy.gif</image>
+        <info><![CDATA[assets/sound/EasyListening/LoveOfMyLife.]]></info>
+        <identifier>3</identifier>
+    </track>
+
+    <track Category="EasyListening">
+        <title>April Song</title>
+        <creator>Tombar</creator>
+        <location>assets/sound/Jazzy/AprilSong.</location>
+        <duration>122</duration>
+        <image>assets/images/PlayListEasy.gif</image>
+        <info><![CDATA[assets/sound/Jazzy/AprilSong.]]></info>
+        <identifier>4</identifier>
+    </track>
+
+    <track Category="EasyListening">
+        <title>Arthur's Theme</title>
+        <creator>Arr.: Tombar</creator>
+        <location>assets/sound/EasyListening/ArthursThemeV1.</location>
+        <duration>154</duration>
+        <image>assets/images/PlayListEasy.gif</image>
+        <info><![CDATA[assets/sound/Jazzy/AprilSong.]]></info>
+        <identifier>5</identifier>
+    </track>
+ <track Category="EasyListening">
+        <title>Killing me Softly</title>
+        <creator>Arr.: M.Langer</creator>
+        <location>assets/sound/EasyListening/killingMeSoftlyLexicon3.</location>
+        <duration>162</duration>
+        <image>assets/images/PlayListEasy.gif</image>
+        <info><![CDATA[assets/sound/Jazzy/AprilSong.]]></info>
+        <identifier>6</identifier>
+    </track>
+
+
+
+    <track Category="Jazzy">
+        <title>The Shadow of Your Smile</title>
+        <creator>Arr. Baden Powell</creator>
+        <location>assets/sound/Jazzy/TheShadowOfYourSmile.</location>
+        <duration>144</duration>
+        <image>assets/images/PlayListJazzy.gif</image>
+        <info><![CDATA[assets/sound/Jazzy/TheShadowOfYourSmile.]]></info>
+        <identifier>0</identifier>
+    </track>
+
+
+    <track Category="Jazzy">
+        <title>Wine and Roses</title>
+        <creator>Arr. Tombar</creator>
+        <location>assets/sound/Jazzy/WineAndRoses.</location>
+        <duration>171</duration>
+        <image>assets/images/PlayListJazzy.gif</image>
+        <info><![CDATA[assets/sound/Jazzy/WineAndRoses.]]></info>
+        <identifier>1</identifier>
+    </track>
+
+    <track Category="Jazzy">
+        <title>Stella in the Moonlight</title>
+        <creator>Tombar</creator>
+        <location>assets/sound/Jazzy/StellaInTheMoonlight.</location>
+        <duration>150</duration>
+        <image>assets/images/PlayListJazzy.gif</image>
+        <info><![CDATA[assets/sound/Jazzy/StellaInTheMoonlight.]]></info>
+        <identifier>2</identifier>
+    </track>
+
+    <track Category="Jazzy">
+        <title>April Song</title>
+        <creator>Tombar</creator>
+        <location>assets/sound/Jazzy/AprilSong.</location>
+        <duration>122</duration>
+        <image>assets/images/PlayListJazzy.gif</image>
+        <info><![CDATA[assets/sound/Jazzy/AprilSong.]]></info>
+        <identifier>3</identifier>
+    </track>
+
+
+    <track Category="Jazzy">
+        <title>One For A Pint</title>
+        <creator>Tombar</creator>
+        <location>assets/sound/Jazzy/OneForAPint.</location>
+        <duration>141</duration>
+        <image>assets/images/PlayListJazzy.gif</image>
+        <info><![CDATA[assets/sound/Jazzy/OneForAPint.]]></info>
+        <identifier>4</identifier>
+    </track>
+    <track Category="MelodicRock">
+        <title>West Coast</title>
+        <creator>Tombar</creator>
+        <location>assets/sound/MelodicRock/WestCoast.</location>
+        <duration>233</duration>
+        <image>assets/images/PlayListMelodicRock.gif</image>
+        <info><![CDATA[assets/sound/Jazzy/OneForAPint.]]></info>
+        <identifier>0</identifier>
+    </track>
+    <track Category="MelodicRock">
+        <title>Spirit</title>
+        <creator>Tombar</creator>
+        <location>assets/sound/MelodicRock/Spirit.</location>
+        <duration>271</duration>
+        <image>assets/images/PlayListMelodicRock.gif</image>
+        <info><![CDATA[assets/sound/Jazzy/OneForAPint.]]></info>
+        <identifier>1</identifier>
+    </track>
+    <track Category="MelodicRock">
+        <title>Get Funky</title>
+        <creator>Tombar</creator>
+        <location>assets/sound/MelodicRock/GetFunky.</location>
+        <duration>224</duration>
+        <image>assets/images/PlayListMelodicRock.gif</image>
+        <info><![CDATA[assets/sound/Jazzy/OneForAPint.]]></info>
+        <identifier>2</identifier>
+    </track>
+    <track Category="MelodicRock">
+        <title>Aurora</title>
+        <creator>Tombar</creator>
+        <location>assets/sound/MelodicRock/Aurora.</location>
+        <duration>210</duration>
+        <image>assets/images/PlayListMelodicRock.gif</image>
+        <info><![CDATA[assets/sound/Jazzy/OneForAPint.]]></info>
+        <identifier>3</identifier>
+    </track>
+    <track Category="MelodicRock">
+        <title>Go for what you Feel</title>
+        <creator>Rabar</creator>
+        <location>assets/sound/MelodicRock/GoForWhatYouFeel.</location>
+        <duration>273</duration>
+        <image>assets/images/PlayListMelodicRock.gif</image>
+        <info><![CDATA[assets/sound/Jazzy/OneForAPint.]]></info>
+        <identifier>4</identifier>
+    </track>
+    <track Category="MelodicRock">
+        <title>Mr.Briefcase (Ritenour/Tagg)</title>
+        <creator>Arr.Rabar/Tombar</creator>
+        <location>assets/sound/MelodicRock/BriefCase.</location>
+        <duration>207</duration>
+        <image>assets/images/PlayListMelodicRock.gif</image>
+        <info><![CDATA[assets/sound/Jazzy/OneForAPint.]]></info>
+        <identifier>5</identifier>
+    </track>
+</trackList>
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+  
+  
+  
+  

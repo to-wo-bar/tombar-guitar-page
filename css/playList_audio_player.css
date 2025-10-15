@@ -1,0 +1,210 @@
+#playerContainer {
+
+    /* background-image: -webkit-linear-gradient(top, #cc6800 0%,#cc9800 100%); */
+    width:385px;
+    height:180px;
+
+
+}
+
+#trackListBox {
+
+  width: 250px;
+  height:130px;
+}
+
+
+ #audioNavList,#audioNavRpm {
+
+  width:378px;
+}
+
+.rpm-font-size {
+
+  font-size:15px;
+  margin-top:3px;
+}
+
+
+/* For smartphones */
+@media (max-width: 450px) {
+
+  #playerContainer
+  {
+      
+     padding-left:0px!important;
+      width:320px;
+      height:180px;
+      background:transparent;
+
+  }
+
+
+  #trackListBox {
+
+      width:180px!important;
+
+  }
+
+  #audioNavList,#audioNavRpm {
+
+    width:307px;
+  }
+
+  .action-btn-lpl {
+    
+    margin-left:  12px !important;
+    margin-top:  9px !important;
+    
+  }
+
+  .rpm-font-size {
+
+    font-size:13px;
+  }
+
+}
+
+
+
+
+
+.bg {
+
+  background-color: #cc6800;
+
+}
+
+/* Allgemeine Listbox-Stile */
+#trackListBox {
+   
+    overflow-y: scroll; /* Scrollbar aktivieren */
+    padding-left: 2px;
+    padding-right: 4px;
+    list-style: none;
+    margin: 4px;
+}
+
+
+
+/* Scrollbar-Stile */
+#trackListBox::-webkit-scrollbar {
+    width: 4px;
+}
+
+#trackListBox::-webkit-scrollbar-thumb {
+    background-color: black; /* Scrollbar-Farbe */
+     border-radius: none; 
+}
+
+#trackListBox::-webkit-scrollbar-track {
+
+    background-color: rgba(236, 233, 216, 0.9) ;
+    
+}
+
+.trackItem
+{
+    margin-top :3px;
+    margin-bottom :3px;
+    padding-left:5px;
+    padding-top:3px;
+    padding-bottom: 3px;
+    font-family:Verdana, Geneva, sans-serif;font-size:11px;font-weight: bold;
+    color: brown;
+    background-color: #ece9d8;
+    background-color: rgba(236, 233, 216, 0.9) ;
+    border:solid 2px transparent;
+    border-bottom-right-radius:8px ;
+    border-top-right-radius:8px ;
+    
+}
+
+.trackItem:hover
+{
+    background-color:#3e2e18 !important; /* wegen jQuery css */; /*brownish*/
+    color:white !important; /* wegen jQuery css */;
+    /* border:solid 2px #FFCC33 !important; */
+    border:solid 2px #F0a246 !important;
+    border-bottom-right-radius:8px ;
+    border-top-right-radius:8px ;
+    cursor:pointer;
+}
+
+
+
+/* Ausgewähltes Element */
+.selected {
+    background-color: black;
+    color: white;
+    /* border:solid 2px #FFCC33 !important; */
+    border:solid 2px #F0a246 !important;
+    border-bottom-right-radius:8px ;
+    border-top-right-radius:8px ;
+    cursor:pointer;
+}
+
+
+.action-btn-lpl {
+    background-color:transparent;
+    border: 0;
+    color:  white;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left:30px;
+    margin-top: 10px;;
+  }
+  
+  .action-btn-lpl.action-btn-big-lpl {
+    color: white;
+    font-size: 15px;
+  }
+  
+  .action-btn:focus {
+    outline: 0;
+  }
+  
+  #currTime-lpl,#durTime-lpl,#actTitle {
+  
+    font-size:12px; 
+    color:white;
+  }
+  #actTitle {
+  
+    font-size:16px; 
+    color:white;
+    margin-left:5px;
+   
+  }
+
+
+
+  .progress-container-lpl {
+    background: #fff;
+    background: black;
+    border: solid 2px #FFCC33;
+    border: solid 2px #F0a246;
+    cursor: pointer;
+    margin-left:5px;
+    margin-right:5px;
+    margin-top:18px;
+    height:8px;
+    width: 60%;
+  }
+  
+  .progress-lpl {
+    background-color: white;
+    border-radius: 0px;
+    height: 4px;
+    height: 4px;
+    width: 0px;
+    transition: width 0.1s linear;
+  }
+
+  .hide-nav
+  {
+    display:none;
+
+  }
+
+  

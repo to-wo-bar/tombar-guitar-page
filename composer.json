@@ -1,0 +1,16 @@
+{
+    "name": "thbar/tombar-guitar-page",
+    "authors": [
+        {
+            "name": "towobar",
+            "email": "plux@freenet.de"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    }
+    ,
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    }
+}

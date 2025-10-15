@@ -1,0 +1,762 @@
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+
+:root { 
+
+    --section-bg : #eae2cd;
+    --section2-bg : #f5ffef;
+    --brownish : #a67469;
+    --blackish : #2e2345;
+    --beige: #d09a74;
+    --border:#F0a246;
+    
+    }
+
+
+body {
+    /* font: 400 15px/1.8 Lato, sans-serif; */
+    font-family: Lato, sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+
+    background-color:#3e2e18;
+   
+    /* background-color:var(--brownish);
+    background-color:#9e7f56; */
+    color:white;
+
+}
+
+h3, h4 {
+    margin: 10px 0 30px 0;
+    letter-spacing: 10px;
+    font-size: 20px;
+    color: #fff;
+}
+
+
+ a.freepik{
+
+ color: var(--brownish);
+
+ }
+.row{
+    padding-top:70px;
+    padding-bottom:80px;
+}
+
+
+
+/*Styles für den NavBar WebsiteTop*/
+
+
+.navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+
+    background-image: -moz-linear-gradient(top, #cc6800 0%,#cc9800 100%);
+    background-image: -webkit-linear-gradient(top, #cc6800 0%,#cc9800  100%);
+    background-image: -o-linear-gradient(top, #cc6800 0%,#cc9800 100%);
+    background-image:  -ms-linear-gradient(top, #cc6800 0%,#cc9800 100%);
+    background-image: linear-gradient(top, #cc6800 0%,#cc9800 100%);
+
+    background-image: -webkit-linear-gradient(top, #cc6800 0%,#cc8800 100%);
+
+    /*filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffffff', endColorstr='gainsboro');*//*For IE7-8-9*/
+
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    /*opacity: 0.9;*/
+    height: 100px;
+}
+
+
+
+.navbar-fixed-top {
+    min-height:110px;
+    /* border-bottom: solid 3px var(--border)!important; */
+    border-bottom: solid 2px white!important;
+    /* border-bottom: solid 4px #a67469!important; */
+}
+
+
+/*Höhe für das BrandLogo*/
+.navbar-brand,.navbar-nav li a
+{
+    line-height: 110px;
+    height: 110px;
+    /*padding-top: 0px;*/
+    /*padding-bottom: 5px;*/
+    margin-left: 0px!important;
+}
+
+.brand-margin-right {
+
+    margin-right: 280px;
+}
+
+
+.navbar-nav > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 110px;
+}
+
+
+.navbar li a, .navbar .navbar-brand {
+    color: #d5d5d5 !important;
+}
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+.navbar-nav li.active a {
+
+    background-color: #cc6800 !important;
+
+    border-bottom: solid 2px white!important;
+    /* border-bottom: solid 3px var(--border)!important; */
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color:white;
+}
+.navbar-default .navbar-toggle:hover  {
+    background-color:#cc6800;
+}
+.navbar-default .navbar-toggle:focus  {
+    background-color:#cc6800;
+}
+
+/*DropDownMenu NavBar*/
+
+.open .dropdown-toggle {
+    color: #fff;
+    background-color: #cc6800 !important;
+}
+
+.dropdown .open {
+
+    padding-top: 0px!important;
+}
+.dropdown-menu li a {
+    background-color: #cc9800;
+    line-height: 50px;
+    height: 50px;
+}
+.dropdown-menu li a:hover {
+    background-color: #cc6800;
+    color: #fff !important;
+}
+
+
+
+
+
+/*Höhe der MenuItems bei collapsed navbar wenn der Screen kleiner als 767 ist*/
+@media (max-width: 767px) {
+
+    .navbar-nav li a
+    {
+        line-height: 50px;
+        height: 50px;
+
+        font-size: 12px !important;
+        /*padding-top: 0px;*/
+        padding-left:30px;
+        color:#ffffff!important;
+        background-color: #cc6800;
+        border-bottom: solid 1px white!important;
+    }
+
+    .navbar-nav
+    {
+        margin-top: 0px;;
+    }
+
+    .navbar-nav li a:hover, .navbar-nav li a:active{
+        color: #fff !important;
+        background-color: #cc9800!important;
+        border-bottom: solid 1px white!important;
+    }
+
+    .dropdown-menu li a {
+        background-color: #cc6800!important;
+        line-height: 50px;
+        height: 50px;
+        padding-left:40px!important;;
+    }
+
+    .brand-margin-right {
+
+        margin-right: 0;
+    }
+
+}
+
+
+
+@media (max-width: 767px) {
+
+    .imageTom {
+
+        width: 60%;
+        height: auto;
+        margin: auto;
+
+    }
+}
+
+
+
+
+@media (max-width: 425px) {
+
+    .imageTom {
+
+        width: 90%;
+        height: auto;
+        margin: auto;
+
+    }
+
+    ul.video li, ul.program li {
+
+        margin-bottom: 10px;
+    }
+
+
+    
+}
+
+
+/*Für die TextBoxen Desktop */
+ .contentLeft,.contentRight
+{
+
+    border: 2px solid transparent;
+    width: 480px;
+    height: auto;
+    text-align:justify;
+    margin-left:auto;
+    margin-right:auto;
+    /*padding-top: 20px;;*/
+    /*padding-bottom: 20px;;*/
+
+} 
+
+
+/* Für die TextBoxen smartphones */
+ @media (max-width: 425px) {
+
+    .contentLeft,.contentRight
+    {
+        border: 2px solid transparent;
+        width: 330px;
+        height: auto;
+        text-align:justify;
+        margin-left:auto;
+        margin-right:auto;
+        /*padding-top: 20px;;*/
+        /*padding-bottom: 20px;;*/
+       
+    }
+} 
+
+ @media (max-width: 360px) {
+
+    .contentLeft,.contentRight
+    {
+
+        border: 2px solid transparent;
+        width: 320px;
+        height: auto;
+        text-align:justify;
+        margin-left:auto;
+        margin-right:auto;
+        /*padding-top: 20px;;*/
+        /*padding-bottom: 20px;;*/
+
+    }
+    .ContentHead
+    {
+        font-size :20px!important;
+        font-style:italic;
+        font-weight: bold;
+    }
+
+    h4{ font-size:12px;}
+} 
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width :425px) {
+    .tooltip {
+        display: none !important;
+    }
+    .desktop {
+        display: none !important;
+    }
+    .row{
+        padding-top:40px;
+        padding-bottom:80px;
+    
+    
+    }
+
+ }
+
+ @media only screen 
+and (min-device-width : 426px) 
+ {
+    .mobil {
+        display: none !important;
+    }
+
+ }
+
+
+
+#banner {
+
+    margin-top: 110px;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #cc6800;
+    /*border : solid 2px #cc6800;;*/
+    border-bottom: solid 2px white;
+
+    border-top: solid 4px #a67469;
+    border-top:none ;
+    color:white;
+}
+
+#imageBanner1,#imageBanner2 {
+
+    width:100%;
+    height:auto;
+    margin:auto;
+
+}
+
+
+
+
+#welcome,#vita,#repertoire,#gear,#mediaAudio,#mediaVideo, #feedback, #liveSets, #imgShow1, #imgShow2,#soundShow1, 
+#gearShow1, #gearShow2, #gearBody,#gearImageViewerShow1,#gearLabel,#gearLabelMobil,#gearImageViewerShow2,#gearImageViewerShow3 {
+
+    /* background-image: -moz-linear-gradient(top, #cc6800 0%,#cc9800 100%);
+    background-image: -webkit-linear-gradient(top, #cc6800 0%,#cc9800 100%);
+    background-image: -o-linear-gradient(top, #cc6800 0%,#cc9800 100%);
+    background-image:  -ms-linear-gradient(top, #cc6800 0%,#cc9800 100%);
+    background-image: linear-gradient(top, #cc6800 0%,#cc9800 100%); */
+
+    /* background: linear-gradient(to bottom , #cc6800, #cc9800); */
+    /* background-image: -webkit-linear-gradient(top, #cc6800 0%,#cc9800 100%); */
+    background-image: -webkit-linear-gradient(top, #cc6800 0%,#cc8600 100%);
+
+    border-bottom: solid 2px white;
+    border-bottom: solid 2px var(--border);
+}
+
+
+#soundShow2 {
+    background: linear-gradient(to bottom , #cc6800, #cc9800);
+}
+
+.close {
+    float: right;
+    font-size: 30px !important;;
+    font-weight: 700;
+    line-height: 1;
+    color: white !important;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=10);
+    opacity: .9 !important;;
+}
+
+.modal-footer {
+    padding: 15px;
+    text-align: center !important;
+    border-top: 1px solid #e5e5e5;
+}
+
+.btn-standard {
+
+    background-color: #F8F9FA; 
+    color: #a75404;
+    border: 1px solid #cc6800; 
+}
+
+.btn-standard:hover {
+
+    background-color: #cc6800; 
+    color: white;
+    border: 1px solid #cc6800;
+}
+
+.btn-form:hover {
+
+    background-color: #a75404;
+    color: white;
+    border: 1px solid #cc6800; 
+}
+
+.btn-form {
+
+    background-color: #cc6800; 
+    color: white;
+    border: 1px solid #cc6800;
+}
+
+.btn-form:focus {
+
+    background-color: #cc6800; 
+    color: white;
+    border: 1px solid #cc6800 !important;
+    outline: none !important;
+}
+
+
+
+
+/* Borders images */
+
+.tomPortraet
+{
+    /* border: solid 3px #FFCC33; */
+    border: solid 6px #F0a246;
+    /* border: solid 6px var(--beige); */
+    /* border: solid 4px #cc6800; */
+    border-radius: 8px;
+
+}
+
+.imgStd {
+
+     /* border: solid 3px #FFCC33; */
+     border: solid 5px #F0a246;
+     border-radius: 8px;
+}
+
+
+.ContentHead
+{
+    font-size :x-large;
+    font-style:italic;
+    font-weight: bold;
+}
+.Content
+{
+    font-size :small;
+    font-weight: bold;
+    line-height: 2.5rem;
+}
+
+.ContentGear
+{
+    font-size :25px!important;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+.bottom1{
+
+    height:50px!important;
+    color:white!important;
+    border-top: solid 2px white!important;
+    background-image:none!important;
+    background-color: #cc6800!important;
+}
+
+
+
+@media only screen and (min-width: 1920px) {
+    /* For Projectors or Higher Resolution Screens (Full HD) */
+        .Content {
+           font-size:  1.4rem !important; 
+           /* background-color: #e5e5e5!important; */
+        }
+         .Content  > span{
+
+            font-size:  1.4rem !important; 
+            
+        }
+}
+
+
+@media screen and (min-width: 3840px) {
+    /* For 4K Displays (Ultra HD) */
+    .Content {
+        font-size:  1.5rem !important; 
+        /* background-color: #e5e5e5!important; */
+        /* color:red; */
+     }
+     .Content  > span{
+
+        font-size:  1.5rem !important; 
+        
+    }
+}
+
+
+
+
+
+
+footer {
+    color: white;
+    padding: 15px;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover, a:active, a:focus {
+    color: white;
+    text-decoration: underline;
+}
+
+
+.checkbox-warning input[type="checkbox"]:checked + label::before,
+.checkbox-warning input[type="radio"]:checked + label::before {
+    background-color: #f0ad4e;
+    border-color: #f0ad4e;
+}
+
+
+
+#prev,#next ,#prevMobil,#nextMobil{
+
+    color: #cc6800;
+    border: 2px solid  #cc6800;
+    border-radius:4px;
+    padding:4px;
+    cursor:pointer
+
+}
+
+#prev:hover,#next:hover,#prevMobil:hover,#nextMobil:hover {
+
+    background-color: #cc6800 !important;
+    color: white !important;
+    border: 2px solid #cc6800 !important;
+    border-radius:4px;
+}
+
+
+
+/*.rotate90 {*/
+/*    -webkit-transform: rotate(-90deg);*/
+/*    -moz-transform: rotate(-90deg);*/
+/*    -o-transform: rotate(-90deg);*/
+/*    -ms-transform: rotate(-90deg);*/
+/*    transform: rotate(-90deg);*/
+/*}*/
+
+
+
+#contentWrapperRightVar1,#contentWrapperRightVar2 {
+
+    overflow-y: scroll; /* Scrollbar aktivieren */
+}
+
+
+/* Scrollbar-Stile */
+#contentWrapperRightVar1::-webkit-scrollbar,#contentWrapperRightVar2::-webkit-scrollbar {
+    width: 4px;
+}
+
+#contentWrapperRightVar1::-webkit-scrollbar-thumb,#contentWrapperRightVar2::-webkit-scrollbar-thumb {
+    background-color: black; /* Scrollbar-Farbe */
+     border-radius: none; 
+}
+
+#contentWrapperRightVar1::-webkit-scrollbar-track,#contentWrapperRightVar2::-webkit-scrollbar-track {
+
+    background-color: rgba(236, 233, 216, 0.9) ;
+    
+}
+
+
+.modal {
+    overflow-y: auto;
+}
+
+
+
+.modal-lg {
+    min-width: auto;
+    max-width: fit-content;
+}
+
+
+div.desc{
+    position: absolute;
+    top: -25px;
+    /*padding-bottom: 50px;*/
+    /*background-color: #000;*/
+    color: #cc6800;
+    /*opacity: 0.5;*/
+    left:0;   /** new  **/
+    right:0;  /** new  **/
+    /*filter: alpha(opacity=50);*/
+}
+
+div.wrapper{
+    /*float: left;*/
+    position: relative;
+    font-weight: bolder;
+    /*margin: 10px;*/
+}
+
+.txt-highlight {
+
+    color:brown;
+    font-size:11px;
+    background-color:beige;padding:1px;
+
+}
+
+.th {
+
+    color:brown;
+    font-size:11px;
+    background-color:beige;
+    padding: 0px 3px 0px 3px;
+}
+
+
+
+.th2 {
+
+    font-size: 17px;
+    font-weight: bolder;
+    background-color: #cc6800;
+    padding: 0px 3px 0px 3px;
+    cursor:pointer;
+
+}
+
+/* Links für die Auswahl der Rubriken des listplayers*/
+
+.rubrikLink,.videoLink, .musicLink
+{
+    color:white !important;
+    /*font-family:Arial;*/
+    font-weight:bolder;
+    cursor:pointer;
+    text-decoration: underline;
+
+
+}
+
+.rubrikLinkSelected,.videoLinkSelected, .musicLinkSelected
+{
+    color: brown !important;
+    /*font-family:Arial;*/
+
+    font-weight:bolder;
+    text-decoration-color: #FFCC33 !important;;
+    cursor:pointer;
+    /*text-decoration: underline;*/
+    text-decoration: blink !important;;
+
+}
+
+
+
+.playListAudio ul {
+    padding-left:0px!important;
+ }
+ 
+ .playListAudio ul li {  float:left; list-style-type:disc;margin-right:40px!important; }
+ 
+ 
+ .playListAudio
+ {
+     /*position:absolute;*/
+     /*top:195px;left:0px;*/
+     font-size :16px !important;
+ 
+ /*margin-top:30px;*/
+ }
+
+
+
+.tooltip-inner {background-color:#ba6306;} 
+
+/* The arrow is a border.
+You need to change for each arrow the color depending on the 'data-placement' of the tooltip. */
+
+.tooltip.top .tooltip-arrow {
+    border-top-color: #ba6306;;
+  }
+  .tooltip.top-left .tooltip-arrow {
+    border-top-color: #ba6306;;
+  }
+  .tooltip.top-right .tooltip-arrow {
+    border-top-color: #ba6306;
+  }
+
+  /* .tooltip.right .tooltip-arrow {
+    border-right-color: @color;
+  }
+  .tooltip.left .tooltip-arrow {
+    border-left-color: @color;
+  }
+  .tooltip.bottom .tooltip-arrow {
+    border-bottom-color: @color;
+  }
+  .tooltip.bottom-left .tooltip-arrow {
+    border-bottom-color: @color;
+  }
+  .tooltip.bottom-right .tooltip-arrow {
+    border-bottom-color: @color;
+  }
+  .tooltip > .tooltip-inner {
+    background-color: @color;
+  } */
+
+
+/* .tooltip-arrow,
+  .tooltip > .tooltip-inner {background-color: #f00;} */
+
+  input[type='email']:focus,textarea:focus {      
+
+    outline: none !important;
+    border:4px solid #F0a246!important;
+    
+  } 
+
+  input[type='email'],textarea {      
+
+    color: brown !important;
+    font-size: 12;
+    font-weight: bold;
+    
+  } 
+
+  .alert-success {
+    color: #3c763d;
+    color: #ba6306!important;
+    background-color: #F0a246!important;
+    /* background-color: #dff0d8; */
+    border-color: #d6e9c6;
+    border-color: #ba6306;
+    border:2px solid #ba6306!important;
+}
+
+.alert-state {
+    display:none;
+}
+  

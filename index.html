@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Tombar Guitar Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="keywords" content=" Classic Guitar,  Jazz-Guitar, Brasil-Guitar, Melodic-Rock, Recording"/>
+
+    <meta name="description" content="rguitar.tombar.de: This website give an overview about the work of the Berlin guitarrist Tombar" />
+                                      
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+     
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css"> 
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" /> -->
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
+
+   
+    <link rel="shortcut icon" href="assets/images/RotatingClassicalgtr93.gif" type="image/jpg">
+
+    <link href="css/mainPage.css" rel="stylesheet" type="text/css" />
+    <link href="css/custom-check-box.css" rel="stylesheet" type="text/css" />
+    <link href="css/single_audio_player.css" rel="stylesheet" type="text/css" />
+    <link href="css/playList_audio_player.css" rel="stylesheet" type="text/css" />
+
+
+    <style media="all">
+        .mobile-display{display:none}
+        .desktop-display{display:block}
+        @media (max-width:800px){
+            .desktop-display {display:none}
+            .mobile-display {display:block}
+        }
+    </style>
+
+</head>
+
+<!-- active classes werden über Bootsrap srollspy gesetzt -->
+<body id="pageTop" data-spy="scroll" data-target=".navbar" data-offset="210" oncontextmenu="return false;">
+
+<nav class="navbar navbar-default navbar-fixed-top"  >
+    <div class="container-fluid">
+        <div class="navbar-header" style="position: relative;">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar" style="color:white!important;"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!-- <a class="navbar-brand brand-margin-right" href="#banner"><img class="img-responsive" src="assets/images/TombarLogoTopMenu.png"  alt="" ></a> -->
+            <!-- <a class="navbar-brand brand-margin-right" href="#banner"><i class=" fa-solid fa-guitar" style="font-size: 38px;color:white;"></i></a> -->
+            <a class="navbar-brand brand-margin-right" href="#banner"><img class="img-responsive" src="assets/images/guitarLoco.png"  alt="" ></a>
+        <div style="position:absolute;top:37px;left:100px;font-size: small;font-weight: bold;letter-spacing: 3px ;">Tombar</div>
+        <div style="position:absolute;top:57px;left:75px;font-size: smaller;font-weight: bold;letter-spacing: 2px ;">Music with a positive</div>
+        <div style="position:absolute;top:72px;left:112px;font-size: smaller;font-weight: bold;letter-spacing: 2px ;">Spirit</div>
+        </div>
+        
+        <div class="collapse navbar-collapse" id="myNavbar" style="height:100px !important;margin-top:0;overflow: hidden; max-height: none !important; height: auto !important;">
+
+            <ul class="nav navbar-nav navbar-left" style="">
+                <li class="active"><a href="#imageBanner1" >HOME</a></li>
+                <li><a href="#welcome">WELCOME</a></li>
+                <li><a href="#vita">VITA</a></li>
+                <li><a href="#repertoire">REPERTOIRE</a></li>
+                <li><a href="#mediaAudio">AUDIO</a></li>
+                <li><a href="#mediaVideo">VIDEO</a></li>
+                <li><a href="#liveSets">LIVE SETS</a></li>
+                <li><a href="#gear">GEAR</a></li> 
+                <li><a href="#feedback">FEEDBACK</a></li>
+            </ul>
+        </div>
+    </div>
+
+</nav>
+
+
+<!-- Container (Banner) -->
+<div id="banner" class="container text-center " style="position: relative;text-align: center;color:#a67469;">
+    
+    <div class="desktop-display">
+        <img id="imageBanner1" src="assets/images/berlin_skyline.jpg" style="border-bottom: solid 4px #a67469;">
+        <div style=" position: absolute;top: 12px;left: 25px;font-size: x-large;font-weight: bold;">Tombar - guitar music</div>
+        <div style=" position: absolute;top: 45px;left: 25px;font-size: medium;font-weight: bold;">Berlin, Germany</div>
+        <a href="https://www.freepik.com" target="_blank" style=" position: absolute;top: 4px;right: 15px;font-size:x-small;font-weight: bold;" class="freepik">Designed with Freepik</a>
+        <div style="position: relative;">
+        <img id="imageBanner2" src="assets/images/holyGuitar_blank_small.webp" style="width:100% !important;">
+        <!-- <div style=" position: absolute;top: 270px;left: 450px;font-size: 41px;font-weight: bold;">GUITAR SHOW</div> -->
+        <div style=" position: absolute;top: 20px;left: 37%;font-size: 41px;font-weight: bold;">GUITAR SHOW</div>
+        </div>
+    </div>
+    <div class="mobile-display">
+        <img id="imageBanner1" src="assets/images/SkylineV4.jpg" style="border-bottom: solid 5px #a67469;">
+        <div style=" position: absolute;top: 7px;left: 15px;font-size: medium;font-weight: bold;">Berlin, Germany</div>
+        <!-- <div style=" position: absolute;top: 2px;right: 15px;font-size:xx-small;font-weight: bold;">Designed by Freepik</div> -->
+        <a href="https://www.freepik.com" target="_blank" style=" position: absolute;top: 4px;right: 15px;font-size:x-small;font-weight: bold;" class="freepik">Designed with Freepik</a>
+        <img id="imageBanner2" src="assets/images/holyGuitar_blank_small.webp" style="width:100% !important;">
+        <div style=" position: absolute;top: 110px;left: 120px;font-size: 18px;font-weight: bolder;">GUITAR SHOW</div>
+    </div>
+
+</div>
+
+
+<!-- Container ContentSites -->
+<div id="welcome" class="container section" style="height:auto;">
+
+    <div class="row text-center" style="">
+
+        <div class="col-md-6" >
+
+            
+
+            <div class="contentLeft">
+            <div class="text-white"><i class="fa-solid fa-arrow"></i></div> 
+
+                <p id="homeCH" class="ContentHead" ></p>
+                <p id="homeC1" class="Content"></p>
+                <p id="homeC2" class="Content"> </p>
+
+                <img src="assets/images/TombarSign.gif" class="sign" style="margin-left:160px">
+
+                <p id="homeC3" class="Content"></p>
+            </div>
+
+        </div>
+
+        <div class="col-md-6" >
+
+            <img src="assets/images/TomWS1.jpg" class="tomPortraet imageTom" style="filter:brightness(106%) contrast(105%) ; ">
+
+           <div id="welcomeSongWrapper"></div>
+
+
+        </div>
+
+
+
+    </div>
+
+
+</div>
+
+
+<div id="vita" class="container section" style="height:auto;">
+
+    <div class="row " style="">
+
+        <div class="col-md-6" >
+
+            <div class="contentLeft">
+                <p id="vitaCH" class="ContentHead" ></p>
+                <p id="vitaC1" class="Content"></p>
+            </div>
+
+        </div>
+
+
+        <div class="col-md-6" >
+
+            <div class="contentRight">
+
+                    <!--<img src="assets/images/guitarBoxThump2.jpg" class="tomPortraet" style="width:100%;height:auto;margin:auto ">-->
+                <img src="assets/images/BoxAccordV4.gif" class="imgStd" style="width:100%;height:auto;margin:auto; ">
+                    <p id="vitaC2" class="Content" style="margin-top:20px;"></p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<div id="repertoire" class="container section" style="height:auto;">
+
+    <div class="row " style="">
+
+        <div class="col-md-6" >
+
+            <div class="contentLeft" >
+                <p id="repertoireCH" class="ContentHead" ></p>
+                <p id="repertoireC1" class="Content" style="" ></p>
+            </div>
+
+        </div>
+
+        <div class="col-md-6" >
+
+                <div class="contentRight">
+                   
+                    <img src="assets/images/guitarBoxThump2.jpg" class="imgStd" style="width:100%;height:auto;margin:auto">
+                    <p id="repertoireC2" class="Content" style="margin-top:20px;"></p>
+
+                </div>
+        </div>
+
+    </div>
+
+
+</div>
+
+
+
+
+<div id="mediaAudio" class="container section" >
+
+    <div class="row" style="">
+
+        <div class="col-md-6" >
+
+                <div class="contentLeft">
+                    <p id="mediaCH" class="ContentHead" ></p>
+                    <p id="mediaC1" class="Content"></p>
+                    <p id="mediaC2" class="Content"></p>
+                    <p id="mediaC3" class="Content"></p>
+                </div>
+
+        </div>
+
+        <div class="col-md-6" style="" >
+
+                <div class="contentRight" >
+
+
+                    <div id="playerContainer"  style=" border: solid 4px #F0a246;border-radius:8px;padding:2px;  position:relative; " >
+
+                        <div id="imageCon" style="width:120px;height:132px;border-right: solid 3px #F0a246;position:absolute;top:2;left:-4;">
+                            <img id="mediaImage" src="" height="135px" width="115px" alt="mediaImage" >
+                        </div>
+                        <div id="trackListBox" style="position: absolute;top:0;left:120px;" >
+                            
+                        </div>
+                      
+                        <div id="audioNavList" style="position: absolute;top:135px;left:2px;border-top: solid 3px #F0a246;" class="">
+                          
+                            <button id="play" class="action-btn-lpl action-btn-big-lpl" style="float:left;"><i class="fas fa-play" id="i_id_lpl"></i></button>
+                                <span id="currTime-lpl"style="float:left;margin-top:13px;" >01:30</span>
+                                <div class="progress-container-lpl" id="progress-container-lpl" style="float: left;" >
+                                    <div class="progress-lpl" id="progress-lpl" ></div>
+                                </div>
+                            <span id="durTime-lpl"style="float:left;margin-top:13px;" >01:30</span>
+                          
+                        </div>
+            
+                        <div id="audioNavRpm" style="position: absolute;top:135px;left:2px;border-top: solid 3px #F0a246;" class="hide-nav ">
+            
+                          <button id="play_rpm" class="action-btn action-btn-big" style="float:left;margin-left:2px;margin-top:11px;"><i class="fas fa-play" id="i_id_rpm" onclick="onClickPlayBtn()"></i></button>
+                          <span id="actDurationRpm" style="float:left;margin-top:13px;margin-left:15px;font-size:small;color:white" >01:23 /&NonBreakingSpace; </span>
+                          <span id="totalDurationRpm" style="float:left;margin-top:13px;font-size:small;color:white" ></span>
+                          <span id="actTitle" style="float:left;margin-top:9px;margin-left:15px;" >Silent Inspiration</span>
+            
+                        </div>
+            
+                    </div>
+            
+
+                    <audio id="list_player" src="" ></audio>
+
+                    
+                    <label  class="containerCheckbox">
+                        <input type="checkbox" id="check_rpm" ><span class="checkmark test"></span>Rubrik Play Mode 
+                    </label>
+                    
+
+
+
+
+                    <div id="playListAudio" class="playListAudio" style="padding-top:30px;padding-left: 10px">
+
+                        <ul class="mp3">
+                            <li id="m1" class="rubrikLink rubrikLinkSelected" onclick="displayTracksByCategory('Ambient',this.id)" title="">Ambient</li>
+                            <li id="m2" class="rubrikLink" onclick="displayTracksByCategory('BrasilPoetic',this.id)"  title="">Brazilian poetic</li>
+
+                        </ul>
+                    </div>
+
+                    <div id="playListAudio2" class="playListAudio" >
+                        <ul class="mp3" style="clear:left;padding-top:20px!important;padding-left: 10px!important;">
+                            <li id="m3" class="rubrikLink" onclick="displayTracksByCategory('BrasilLively',this.id)"  title="">Brazilian lively</li>
+                            <li id="m4" class="rubrikLink" onclick="displayTracksByCategory('Jazzy',this.id)" title="">Jazzy</li>
+                        </ul>
+                    </div>
+
+                    <div id="playListAudio3" class="playListAudio" >
+                        <ul class="mp3" style="clear:left;padding-top:20px!important;padding-left: 10px!important;">
+                            <li id="m5" class="rubrikLink" onclick="displayTracksByCategory('Classic',this.id)" title="">Classic</li>
+                            <li id="m6" class="rubrikLink" onclick="displayTracksByCategory('EasyListening',this.id)" title="">Easy Listening</li>
+                        </ul>
+                    </div>
+
+                    <div id="playListAudio4" class="playListAudio" >
+                        <ul  class="mp3" style="clear:left;padding-top:20px!important;padding-left: 10px!important;">
+                            <li id="m7" class="rubrikLink" onclick="displayTracksByCategory('MelodicRock',this.id)" title="">Melodic Rock</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+        </div>
+    </div>
+
+</div>
+
+<div id="mediaVideo" class="container section" style="height:auto;">
+
+<!-- <a  name="test" style="color: white;" /> -->
+
+
+    <div class="row text-center" style="">
+
+        <div class="col-md-6" >
+
+            <div class="contentLeft">
+
+                <p id="mediaVideoH" class="ContentHead"></p>
+<!--                <p id="mediaC4" class="Content"></p>-->
+
+                <div id="videoTagWrapper" style="height:auto;width:100%;padding:2px;margin:auto!important;" class="imgStd">
+                    <p id="mediaC5"></p>
+                </div>
+
+
+            </div>
+
+
+
+            <div id="playPauseVideo" class="" onclick="PlayPauseVideo()" style="cursor: pointer;padding:10px;font-size:18px; "></div>
+
+        </div>
+
+        <div class="col-md-6" style="margin-top:50px!important;" >
+
+
+<!--            <div  style="width:300px;margin-left:0!important;text-align:justify;">-->
+            <div  style="width:100%;margin-left:0!important;text-align:justify;">
+
+
+                <p id="mediaC4" class="Content"  style="margin-left: 23px!important;height:auto!important;text-align:justify!important;; "></p>
+
+            <ul class="video">
+
+                <li id="v1" class="videoLink videoLinkSelected" onclick="playVideo('BadenManha',this.id)" title="">Baden Powell - Brasil</li>
+                <li id="v2" class="videoLink" onclick="playVideo('FerencAir',this.id)" title="">Ferenc Snetberger - Jazz</li>
+                <li id="v3" class="videoLink" onclick="playVideo('FerencFeathers',this.id)" title="">Ferenc Snetberger Quartet - Jazz</li>
+                <li id="v4" class="videoLink" onclick="playVideo('Toquinho & Gilberto Gil - Tarde em Itapoa',this.id)" title="">Toquinho & Gilberto Gil - Brasil</li>
+                <li id="v5" class="videoLink" onclick="playVideo('JoyceFeminina',this.id)" title="">Joyce - Brasil</li>
+                <li id="v6" class="videoLink" onclick="playVideo('MaestroVicenteSolea',this.id)" title="">Nikos Tsiachris - Flamenco</li>
+                <li id="v7" class="videoLink" onclick="playVideo('BadSneakers',this.id)" title="">Steely Dan - Jazzy Songs</li>
+                <li id="v8" class="videoLink" onclick="playVideo('CarltonRitenour',this.id)" title="">Larry Carlton & Lee Ritenour - Jazz</li>
+                <li id="v9" class="videoLink" onclick="playVideo('Bluemoon',this.id)" title="">Tommy Emanuel - Jazz Fingerstyle</li>
+
+            </ul>
+
+
+                <p id="mediaC6" class="Content" style="margin-left: 23px!important;height:auto!important;text-align:justify!important;; "></p>
+
+           <ul class="video">
+
+               <li id="v10" class="videoLink" onclick="playVideo('D_BachMedley',this.id)" title="">Bach Medley</li>
+               <li id="v11" class="videoLink" onclick="playVideo('D_GreensleevesVariation',this.id)" title="">Greensleeves Variation</li>
+               <li id="v12" class="videoLink" onclick="playVideo('Roeslein',this.id)" title="">Röslein</li>
+
+           </ul>
+
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+</div>
+
+
+<div id="liveSets" class="container section" style="height:auto;">
+
+    <div class="row text-center" style="">
+
+        <div class="col-md-6" >
+
+            <div class="contentLeft">
+                <p id="liveSetsH" class="ContentHead" ></p>
+                <p id="liveSets1" class="Content"></p>
+                <p id="liveSets2" class="Content"></p>
+            </div>
+
+
+        </div>
+
+        <div class="col-md-6 col-xs-" style="margin-top:50px!important;">
+
+
+            <div  style="width:310px;margin-left:0!important;text-align:justify;">
+
+                <ul class="program" >
+
+                    <li  class="musicLink" onclick="showProgram(1)" title="">Lauten und Gitarren Musik 16 - 20 Jhd</li>
+                    <li  class="musicLink" onclick="showProgram(2)" title="">Pop Songs for Classical Guitar</li>
+                    <li  class="musicLink" onclick="showProgram(3)" title="">Brasil Jazz Guitar</li>
+                    <li  class="musicLink" onclick="showProgram(4)" title="">Jazz Blues Ragtime Guitar</li>
+                    <li  class="musicLink" onclick="showProgram(5)" title="">Silent Inspirationn</li>
+                    <li  class="musicLink" onclick="showProgram(6)" title="">Flamenco Guitar</li>
+                    <li  class="musicLink" onclick="showProgram(7)" title="">Baden Powell</li>
+                </ul>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ShowProgramModal -->
+    <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" >
+            <div class="modal-content" style="padding:0 !important;margin:0 !important;">
+                <div class="modal-header" id="imgShow1">
+                    <button type="button" class=" close text-white" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only text-white">Close</span></button>
+                    <h4 class="modal-title-livesets" id="myModalLabel">TOMBAR LIVE SETS</h4>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="" id="imagepreview" style="width:100%; height:auto" >
+                </div>
+                <div class=" modal-footer" id="imgShow2" >
+                    <a type="button" role="link" class="btn btn-standard" href="" download id="prg_download">DOWNLOAD</a>
+                    <button type="button" class="btn btn-standard" data-dismiss="modal" id="prg_close">CLOSE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<!-- SoundSampleModal without Cd Player -->
+<div class="modal fade" id="soundSampleModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog"  >
+        <div class="modal-content" style="padding:0 !important;margin:0 !important;">
+            <div class="modal-header" id="soundShow1" data-dismiss="false">
+                <button type="button" class=" close text-white" data-dismiss="modal" onclick="stopSoundSample()" ><span aria-hidden="true">&times;</span></button>
+
+                <h4 class="modal-title text-center" >TOMBAR SOUND SAMPLE PLAYER</h4>
+
+            </div>
+            <div class="modal-body text-center ">
+                <audio id="soundSamplePlayer" src="" autoplay></audio>
+                <div id="content1-sample"></div>
+            </div>
+            <div class=" modal-footer" id="soundShow2" >
+
+                <button type="button" class="btn btn-standard"  id="" onclick="stopSoundSample()">STOP PLAYER</button>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SoundSampleModal with Cd Player -->
+<div class="modal fade" id="soundSampleModalCD" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog"  >
+        <div class="modal-content" style="padding:0 !important;margin:0 !important;">
+            <div class="modal-header" id="soundShow1" data-dismiss="false">
+                <button type="button" class=" close text-white" data-dismiss="modal" onclick="stopSoundSample()" ><span aria-hidden="true">&times;</span></button>
+
+                <h4 class="modal-title text-center" >TOMBAR SOUND SAMPLE PLAYER</h4>
+
+            </div>
+            <div class="modal-body text-center">
+                <audio id="audio_player1" src="" autoplay></audio>
+                <div id="content1"></div>
+
+            </div>
+
+            <div class=" modal-footer " id="soundShow2" >
+
+                <div id="singlePlayerContainer" style="width:200px;margin:auto;margin-top:20px;" >
+                    <div style="border: solid 3px #F0a246;border-radius:8px;padding:2px;" class="playerBG">
+                        <div style="clear: left;position: relative">
+                            <div style="float:left;border-right:solid 3px #F0a246;" class="img-container  img" id="image-container"><img id="cover" src=""  alt="mediaImage" ></div>
+                            <div id="titleContainer" style="width:200px;height:50px;float:left;position: relative;">
+                              <h6 id="songTitle" style="position:absolute; bottom:8px;left:90px;color:white"></h6>
+                            </div>
+                        </div>
+              
+                        <div id="audioNavigation" style="clear: left;border-top:solid 2px #F0a246;padding-top:3px;height:30px; ">
+                          <button id="play" class="action-btn action-btn-big" style="float:left;"><i class="fas fa-play" id="i_id"></i></button><span id="currTime"style="float:left;margin-top:6px;" >01:30</span>
+                          <div class="progress-container" id="progress-container" style="float:left;">
+                            <div class="progress" id="progress" ></div></div>
+                          <span id="durTime"style="float:left;margin-top:6px;" >01:30</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div> 
+</div>
+
+<!-- VideoSampleModal  -->
+<div class="modal fade" id="videoSampleModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabelx" aria-hidden="true" >
+    <div class="modal-dialog modal-lg" >
+        <div class="modal-content" style="padding:0 !important;margin:0 !important;">
+            <div class="modal-header" id="soundShow1" data-dismiss="false">
+                <button type="button" class=" close text-white" data-dismiss="modal" onclick="stopVideoSample()" ><span aria-hidden="true" >&times;</span></button>
+                <h4 class="modal-title text-center" ></h4>
+            </div>
+            <div class="modal-body text-center">
+                <div style="border: 1px dashed brown;padding:10px;font-size:11px ">
+               
+                <div id="contentVideo1"></div>
+
+                <video id="videoSamplePlayer" src="" height="auto" width="100%" controls autoplay></video>
+                
+                </div>
+                
+            </div>
+            <div class=" modal-footer" id="soundShow2" >
+
+                <button type="button" class="btn btn-standard"  id="" onclick="stopVideoSample()">STOP PLAYER</button>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="gear" class="container section" style="height:auto;">
+
+    <div class="row" style="">
+
+        <div class="col-md-6" >
+
+            <div class="contentLeft">
+                <p id="gearH" class="ContentHead" ></p>
+                <p id="gear1" class="Content"></p>
+                <p id="gear2" class="Content"></p>
+            </div>
+
+        </div>
+
+        <div class="col-md-6" >
+
+            <div class="contentRight" >
+
+           <div style="margin:auto;width:100%">
+                <img id="gearImageCollage" src="assets/images/gear/bass/BassB3_K2.jpg"  style=" height:auto;width:100%;margin:auto;" class="imgStd">
+               </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="desktop-display" style="">
+
+        <div class="row  form-group" style="padding-top: 10px !important;">
+
+            <div class="col-md-6">
+                <div class="contentLeft">
+                    <div id="gearContentWrapper" class="" style="">
+                        <p id="guitar" class="ContentGear" onclick="ToggleContentGear('guitar')">G u i t a r s</p>
+                        <div id="guitar_C">
+                            <ul class="gearList">
+
+                                <li id="g6"   class="musicLink" onclick="DisplayGearContent('gearGuitar6')" title="">Hirade
+                                    Classic Guitar TH90</li> 
+                                <li id="g7"   class="musicLink" onclick="DisplayGearContent('gearGuitar7')" title="">Cort 
+                                    Sunset Nylectric DLX</li>
+                                <li id="g1" class="musicLink" onclick="DisplayGearContent('gearGuitar1')" title="">Gibson
+                                    ES 135 Limeted Edition</li>
+                                <li id="g2"  class="musicLink" onclick="DisplayGearContent('gearGuitar2')" title="">Aria
+                                    Pro 2 ES 700 ( 335 )</li>
+                                <li id="g3" class="musicLink"  onclick="DisplayGearContent('gearGuitar3')" title="">Yamaha
+                                    Silent Classic Guitar SLG 120NW</li>
+                                <li id="g4"   class="musicLink" onclick="DisplayGearContent('gearGuitar4')" title="">Hirade
+                                    Classic Guitar Master Art 20M</li>
+
+                                <li id="g5"   class="musicLink" onclick="DisplayGearContent('gearGuitar5')" title="">Fender
+                                    SQ Vintage Mod Jazz Bass</li>
+                            </ul>
+                        </div>
+                        <p id="recording" class="ContentGear" onclick="ToggleContentGear('recording')">R e c o r d i n g</p>
+                        <div id="recording_C" style="display:none">
+                            <ul class="gearList">
+                                <li id="g7" class="musicLink" onclick="DisplayGearContent('gearRecording1')"
+                                       title="">Rode NT 1000 large diaphragm Microphon</li>
+                                <li id="g8" class="musicLink" onclick="DisplayGearContent('gearRecording7')"
+                                       title="">Neumann TLM-103 Studio Microphone</li>
+                                <li id="g9" class="musicLink" onclick="DisplayGearContent('gearRecording2')"
+                                       title="">PreSonus Microphone TubePre Amp</li>
+                                <li id="g10" class="musicLink" onclick="DisplayGearContent('gearRecording3')"
+                                       title="">Steinberg UR22 USB 2.0 Audiointerface</li>
+                                <li id="g11" class="musicLink" onclick="DisplayGearContent('gearRecording8')"
+                                       title="">Focusrite Scarlett Audiointerface 2i2 3rd Gen</li>
+                                <li id="g12" class="musicLink" onclick="DisplayGearContent('gearRecording4')"
+                                       title="">Steinberg Cubase Pro 7 - 11</li>
+                                <li id="g13" class="musicLink" onclick="DisplayGearContent('gearRecording5')"
+                                       title="">Superior Drummer 2.4</li>
+                                <li id="g14" class="musicLink" onclick="DisplayGearContent('gearRecording6')"
+                                       title="">Roland Gr1 Guitar-Synth</li>
+                                <li id="g15" class="musicLink" onclick="DisplayGearContent('gearRecording9')"
+                                       title="">Recording Tipps ( Concert Guitar Nylon Strings ) </li>
+
+                            </ul>
+                        </div>
+                        <p id="amplifier" class="ContentGear" onclick="ToggleContentGear('amplifier')">A m p l i f i e r s</p>
+                        <div id="amplifier_C" style="display:none">
+                            <ul class="gearList">
+                                <li id="g16" class="musicLink" onclick="DisplayGearContent('gearAmplifier1')"
+                                       title="">Acoustic 100 GT</li>
+                                <li  id="g17" class="musicLink" onclick="DisplayGearContent('gearAmplifier2')"
+                                       title="">Yamaha THR 10 Modeling Amp</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+
+                <div id="gearVar1">
+
+                    <div style="position:relative;" class="contentRight">
+
+                        <img id="gearImageVar1" src=""  style="border: solid 4px #F0a246;border-radius:8px;image-orientation:from-image">
+
+                        <div id="contentWrapperRightVar1" class="" style="width:330px; height:300px; border: solid 3px transparent;border-radius:8px;position: absolute;top:0px;left:150px; ">
+                            <p id="gearC3Var1" class="Content" style="padding: 10px;"> </p>
+                        </div>
+                    </div>
+
+
+                    <a class="musicLink" href="javascript:DisplayBigImage()" title=""  style="position:absolute;top:345px;left:110px;">ZOOM</a>
+                </div>
+
+                <div id="gearVar2" style="position:relative;display:none;height: 500px;"  class="contentRight">
+
+
+                    <div id="contentWrapperRightVar2" style="width:485px; height:320px; border: solid 3px transparent;border-radius:8px;position: absolute;top:-12px;left:0px; ">
+                        <p id="gearC3Var2" class="Content" style="padding: 10px;" > </p>
+                    </div>
+
+                    <div style="position: absolute;top:320px;width:400px;text-align: center;margin-top: 15px;" >
+                        <img id="gearImageVar2"  style="border: solid 3px #F0a246;border-radius:8px; margin-bottom: 15px!important;">
+                        <!--<span style="margin:15px;cursor:pointer;font-weight:bolder" onclick="DisplayBigImage()" title="">BIG</span>-->
+                    </div>
+
+                    <a class="musicLink" href="javascript:DisplayBigImage()" title=""  style="position:absolute;top:340px;left:360px;">ZOOM</a>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <!-- GearImageViewer Desktop -->
+        <div class="modal fade" id="gearModalImageViewer" tabindex="-1" role="dialog" aria-labelledby="gearModalImageViewerLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg gear" style="width:1000px !important;">
+
+
+                <div class="modal-content text-center" style="padding:0 !important;margin:0 !important;background-color: #f6c489">
+                    <div class="modal-header" id="gearImageViewerShow1">
+                        <button type="button" class=" close text-white" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only text-white">Close</span></button>
+                        <h4 class="modal-title-gear" id="gearModalImageViewerLabel">TOMBAR GEAR</h4>
+                    </div >
+
+                    <div class="modal-body text-center" id="gearImageViewerBody" >
+
+                        <div style="color:#cc6800;padding:15px;margin-bottom:25px;border: solid 2px #cc6800;background-color: #fce4bf; " class="text-center">
+
+                            <span id="prev" style="" onclick="NextImage('prev')">prev</span>
+                            <span>&nbsp;&nbsp;&nbsp;</span>
+                            <span id="gearLabel" style="color:white;padding: 4px;border:solid 2px #cc6800;border-radius:4px; "></span>
+                            <span>&nbsp;&nbsp;&nbsp;Image&nbsp;</span>
+                            <span id="imageCount">1</span>
+                            <span>of</span>
+                            <span id="imageMax">5</span>
+                            <span>&nbsp;&nbsp;&nbsp;</span>
+                            <span id="next" style="" onclick="NextImage('next')" >next</span>
+
+                        </div>
+
+                        <!--<img id="gearImageBig"  style="border: solid 3px #FFCC33;border-radius:8px;">-->
+                        <div class="wrapper">
+                        <img id="gearImageBig" src=""  style="border: solid 2px #cc6800;" >
+                            <div id="caption" class="desc" style=""></div>
+
+                        </div>
+                    </div>
+
+<!--                    <div class=" modal-footer" id="gearImageViewerShow2" >-->
+<!--                        <button type="button" class="btn btn-standard" data-dismiss="modal" id="geargearImageViewerClose">CLOSE</button>-->
+<!--                    </div>-->
+                </div>
+            </div>
+        </div>
+
+
+    </div> <!--End Deskstop -->
+
+
+
+    <div id="mobile" class="mobile-display ">
+
+        <div class="row" style="">
+            <div class="col-md-12" >
+
+                <div class="contentLeft">
+                    <p id="1" class="ContentHead" >Mobil Gear</p>
+                    <p id="gear3" class="Content"></p>
+                    <a class="musicLink" href="javascript:DisplayGuitarsImageMobil()" title=""  style="">Show Instruments</a>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- GearImageViewer Mobil -->
+        <div class="modal fade" id="gearModalMobil" tabindex="-1" role="dialog" aria-labelledby="gearModalImageViewerLabel" aria-hidden="true">
+            <div class="modal-dialog  "  style="padding:0 !important;margin:0 !important;">
+
+
+                <div class="modal-content" style="border:solid 2px #cc6800;border-radius:4px;margin: 10px;background-color: #f6c489;"  >
+                    <div class="modal-header" id="gearImageViewerShow3">
+                        <button type="button" class=" close text-white" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only text-white">Close</span></button>
+                        <h4 class="modal-title-guitar text-center"  >TOMBAR GUITARS</h4>
+                    </div >
+
+                    <div class="modal-body text-center"  style="">
+
+                        <div style="color:#cc6800;padding:15px;margin-bottom:5px;border: solid 2px #cc6800;background-color: #fce4bf; " class="text-center">
+
+                            <span id="prevMobil" style="" onclick="NextImageMobil('prev')">prev</span>
+                            <span>&nbsp;&nbsp;&nbsp;</span>
+<!--                            <span id="gearLabel" style="color:white;padding: 4px;border:solid 2px #cc6800;border-radius:4px; ">GUITAR</span>-->
+                            <span>&nbsp;&nbsp;&nbsp;GUITAR&nbsp;</span>
+                            <span id="imageCountMobil">1</span>
+                            <span>of</span>
+                            <span id="imageMaxMobil">5</span>
+                            <span>&nbsp;&nbsp;&nbsp;</span>
+                            <span id="nextMobil" style="" onclick="NextImageMobil('next')" >next</span>
+
+                        </div>
+
+                        <!--<img id="gearImageBig"  style="border: solid 3px #FFCC33;border-radius:8px;">-->
+
+                            <div id="gearLabelMobil" class="descx" style="color:white;padding: 4px;border:solid 2px #cc6800;border-radius:4px;margin-top:0px;margin-bottom: 5px;" ></div>
+                            <img id="gearImageMobil" src="assets/images/gear/gibson135/GibsonB0.png"  style="border: solid 2px #cc6800;"/>
+
+
+                    </div>
+
+                    <!--                    <div class=" modal-footer" id="gearImageViewerShow2" >-->
+                    <!--                        <button type="button" class="btn btn-standard" data-dismiss="modal" id="geargearImageViewerClose">CLOSE</button>-->
+                    <!--                    </div>-->
+                </div>
+            </div>
+        </div>
+
+
+
+    </div> <!--End Mobil -->
+
+
+</div>
+
+
+<div id="feedback" class="container section" style="height:auto;">
+
+
+    <div class="row " style="padding-bottom:0 !important;">
+
+        <div class="col-md-6" >
+
+            <div class="contentLeft">
+                <p id="feedbackCH" class="ContentHead" ></p>
+                <p id="feedbackC1" class="Content"></p>
+            </div>
+
+        </div>
+
+        <div class="col-md-6" >
+
+            <div class="contentRight">
+
+                <p id="feedbackC2" class="Content"></p>
+                <img id="guitarAriaPro2" src="assets/images/guitarCorpusFeedbackAria2.jpg"  style=" width:100%;height:auto;margin:auto;" class="imgStd">
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="row " style="padding-top: 5px !important;">
+
+        <div class="col-md-6" >
+
+            
+
+
+            <div class="contentRight">
+            
+               
+
+
+                <form id="emailForm" enctype="multipart/form-data">
+
+                    <div class="form-group">
+                        <label for="email-field" class="pb-2" id="email">Your Email</label>
+                        <input type="email" class="form-control" name="email" id="email-field" required="">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message-field" class="pb-2" id="message">Message</label>
+                        <textarea class="form-control" name="message" rows="4" id="message-field" required=""></textarea>
+                    </div>
+
+
+                    <div id="alert-box-1" class="alert  alert-success alert-dismissible text-center alert-state">
+                        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                        <strong id="success-message"></strong>
+                    </div>
+                    <div id="alert-box-2" class="alert  alert-success alert-dismissible text-center alert-state">
+                        <a href="#" id="close1" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                        <strong id="error-message"></strong>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-form mb-5 text-color-light" id="send">Nachricht Senden</button>
+                    </div>
+
+                </form>
+            </div>          
+        </div>
+
+    </div>
+
+
+
+
+
+
+</div>
+
+<div class="navbar navbar-default  navbar-fixed-bottom bottom1" >
+
+ <footer class="footer text-center" >
+
+      <p>
+        <a href="#" >Top</a> |
+        <a href="#feedback" >Feedback</a> |
+        <a id="language" href="#" onclick="SetLanguageMode()">English</a> 
+        <!-- <span id="onOffVolume" class="glyphicon glyphicon-volume-off" style="font-size:16px;cursor: pointer" onclick="OnOffVolume()"></span> -->
+      </p>
+
+ </footer>
+
+
+
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="jScripts/single_audio_player.js"></script>
+<script type="text/javascript" src="jScripts/playList_audio_player.js"></script>
+<script type="text/javascript" src="jScripts/mainPage.js"></script>
+<script type="text/javascript" src="jScripts/email.js"></script>
+
+
+
+<script type="text/javascript">
+
+
+    $(document).ready(function(){
+
+
+        let is_mobile = false;
+
+        if( $('#mobile').css('display') === 'block') {
+            is_mobile = true;
+        }
+
+        set_mobile_status(is_mobile);
+
+        $("html,body").animate({scrollTop:0}, 200);
+
+        $('#chk_play_mode').change(function() {
+            if(this.checked) {
+
+                SetRubrikMode(true);
+
+                return;
+            }
+
+            SetRubrikMode(false);
+
+        });
+
+        LoadPageContent();
+        //LoadPlayList();
+
+
+
+    });
+</script>
+
+</body>
+</html>
